@@ -10,7 +10,6 @@ searchButton.addEventListener('click', function(event) {
     searchInput.value = '';
     getData(searchTerm)
         .then(data => {
-            console.log(data);
             displayData(data);
         });
 });
@@ -22,7 +21,6 @@ const getData = async (searchTerm) => {
 }
 
 const displayData = (data) => {
-    console.log(data);
     const resultsContainer = document.querySelector('.results-container');
 
     data.forEach(element => {

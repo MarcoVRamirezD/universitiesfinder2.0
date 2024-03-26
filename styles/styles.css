@@ -1,10 +1,10 @@
 /* variables */
 :root {
-    --primary-color: #7AA2E3;
-    --secondary-color: #6AD4DD;
-    --tertiary-color: #97E7E1;
-    --dark-color: #333;
-    --light-color: #F8F6E3;
+    --primary-color: #0984e3;
+    --secondary-color: #00cec9;
+    --tertiary-color: #00b894;
+    --dark-color: #2d3436;
+    --light-color: #b2bec3;
 }
 
 
@@ -97,7 +97,7 @@ a {
 }
 
 a h1{
-    color: var(--light-color);
+    color: white;
 }
 
 a:hover {
